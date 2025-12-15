@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+
+Sitemap: https://denner.in/sitemap.xml
