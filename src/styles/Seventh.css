@@ -1,0 +1,105 @@
+#seventh{
+    height: 110vh;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  overflow-y: hidden;
+}
+
+#seventh h1, #seventh p{
+    text-align: center;
+}
+
+#seventh h1{
+    font-size: 75px;
+    font-weight: 500;
+    margin-top: 120px;
+    margin-bottom: 10px;
+}
+
+#seventh p{
+    font-size: 32px;
+    margin-top: 0%;
+}
+
+.store-buttons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.store-badge {
+  height: 90px;
+  margin-block: 20px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.store-badge:hover {
+  transform: scale(1.05);
+}
+
+/* Phone section */
+.phones {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 0px;
+  position: relative;
+    margin-top: 130px;
+}
+
+
+
+.phone {
+  height: 380px;
+  object-fit: contain;
+}
+
+.phone-center {
+  z-index: 2;
+  transform: scale(1.8);
+}
+
+.phone-left,
+.phone-right {
+  opacity: 0.9;
+  scale: 1.4;
+}
+
+.phone-left{
+  transform: translate(20px, 20px);
+}
+
+.phone-right{
+  transform: translate(-20px, 20px);
+}
+
+@media screen and (max-width: 800px) {
+    #seventh{
+        height: 110vh;
+        width: 100vw;
+        padding: 0%;
+        overflow-x: hidden;
+    }
+
+    #seventh h1{
+        font-size: 40px;
+        margin-inline: 20px;
+    }
+
+    #seventh p{
+        margin-top: 10px;
+        font-size: 20px;
+        width: 90%;
+    }
+
+    .store-buttons{
+        gap: 0;
+    }
+
+    .store-badge{
+        height: 60px;
+    }
+}

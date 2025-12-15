@@ -1,0 +1,98 @@
+.cardcontainer {
+  height: 360vh;
+
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  padding-left: 7vw;
+}
+
+.roll-card {
+  display: block;
+  position: sticky;
+  width: 300px;
+  height: 500px;
+  padding: 0%;
+  top: 150px;
+  border-radius: 16px;
+  background-color: transparent;
+  opacity: 0;
+}
+
+.roll-card[hidden] {
+  display: block !important;
+}
+
+
+.roll-card img {
+  width: 400px;
+  margin: 0%;
+  left: 0px;
+  object-fit: cover;
+}
+
+.yqtwedg7352e {
+  margin-top: 100px;
+}
+
+.card-1 {
+  margin-top: 0vh;
+}
+
+.card-2 {
+  margin-top: 80vh;
+  display: block !important;
+}
+
+.card-2 img{
+  scale: 0.86;
+}
+
+.card-3 {
+  margin-top: 160vh;
+  transform: translateY(-50px);
+}
+
+.card-4 {
+  margin-top: 220vh;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+  .cardcontainer {
+    width: 90vw;
+    flex-direction: column;
+    align-items: center;
+    height: 290vh;
+
+  }
+
+  .roll-card{
+    width: 91vw;
+  }
+
+  .roll-card img{
+   width: 100%;
+  }
+  .card-1 {
+  margin-top: 0vh;
+}
+
+.card-2 {
+  margin-top: 3vh;
+}
+
+.card-2 img{
+  scale: 0.86;
+}
+
+.card-3 {
+  margin-top: 6vh;
+}
+
+.card-4 {
+  margin-top: 9vh;
+}
+}

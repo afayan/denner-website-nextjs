@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+
+
+
+/* Back Button */
+.back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    border: none;
+    background-color: white;
+}
+
+.back-button {
+    max-width: 50px;
+    transition: opacity 0.3s ease;
+}
+
+.back-button:hover {
+    opacity: 0.7;
+}
+
+/* Page Title */
+
+.pagesbody{
+    padding: 90px;
+    padding-inline: 180px;
+}
+
+.pagesbody h1{
+    font: 'Poppins';
+    font-weight: 600;
+    font-size: 66px;
+}
+
+.pagesbody p{
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--gray);
+}
+
+.bold{
+    font-weight: 600 !important;
+}
+
+.semibold{
+    font-weight: 500 !important;
+}
+
+.black{
+    color: black !important;
+}
+
+.pagesbody a{
+    color: rgb(35, 134, 221);
+    text-decoration: none;
+}
+
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+
+    .back-button{
+        width: 33px;
+    }
+
+    #big{
+        font-size: 20px;
+    }
+    
+    .pagesbody {
+        font-size: 1rem;
+        line-height: 2rem;
+         padding: 10%;
+        padding-top: 100px;
+    }
+
+    .pagesbody h1{
+        font-size: 30px;
+    }
+
+    .pagesbody p{
+        font-size: 14px;
+        line-height: 150%;
+    }
+}
+
+/* Accessibility and Print Styles */
+@media print {
+    body {
+        font-size: 12pt;
+        line-height: 1.5;
+    }
+}

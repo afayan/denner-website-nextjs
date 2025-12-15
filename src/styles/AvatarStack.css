@@ -1,0 +1,49 @@
+.avatar-stack {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-left: 70px;
+}
+
+.avatar-wrapper {
+  margin-left: -5px;
+  border: 2px solid white;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 30px;
+  height: 30px;
+  background: white;
+  box-shadow: 0 0 0 1px #ccc;
+}
+
+.avatars{
+  margin-top: 70px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.avatar-wrapper:first-child {
+  margin-left: 0;
+}
+
+.avatar {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.avatar.placeholder {
+  background: black;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatars h4{
+  margin-left: 20px !important;
+}

@@ -1,0 +1,274 @@
+/* Main container */
+.sixth-container {
+  position: relative;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: black;
+  padding-top: 5%;
+  padding-bottom: 100px;
+}
+
+.trusted{
+    display: flex;
+    margin-top: 0% !important;
+    margin-bottom: 80px;
+    font-weight: 300;
+    transform: translateX(-30px);
+}
+
+.trusted h4{
+  font-weight: 300;
+  font-size: larger;
+}
+
+/* Marquee animations */
+@keyframes marquee {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes marqueeVert {
+  from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes marquee-reverse {
+  from {
+    transform: translateX(-70%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+/* Marquee container */
+.marquee {
+  display: flex;
+  overflow: hidden;
+  user-select: none;
+  gap: 1rem;
+  width: 100%;
+}
+
+.marquee-content {
+  display: flex;
+  animation: marquee 70s linear infinite alternate;
+  gap: 0.2rem;
+  min-width: 100%;
+}
+
+.marquee.reverse .marquee-content {
+  animation: marquee-reverse 70s linear infinite;
+}
+
+.marquee.pause-on-hover:hover .marquee-content {
+  animation-play-state: paused;
+}
+
+.marquee-20s .marquee-content {
+  animation-duration: 70s;
+}
+
+/* Review card styles */
+.review-card {
+  position: relative;
+  width: 22rem; /* 64 * 0.25rem = 16rem */
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 1.3em;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 1rem;
+  padding-inline: 50px;
+  background-color: rgb(0, 0, 0);
+  transition: background-color 0.2s ease;
+  flex-shrink: 0;
+  height: 176px;
+  color: white;
+  margin: 10px;
+}
+
+
+
+/* Dark mode styles */
+/* @media (prefers-color-scheme: dark) {
+  .review-card {
+    border-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .review-card:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+} */
+
+/* Review header */
+.review-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.avtar {
+  border-radius: 9999px;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.user-name {
+  font-weight: 500;
+  color: gray;
+  margin-bottom: 0%;
+}
+
+.username {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+/* Dark mode text colors */
+/* @media (prefers-color-scheme: dark) {
+  .user-name {
+    color: #fff;
+  }
+  
+  .username {
+    color: rgba(255, 255, 255, 0.4);
+  }
+} */
+
+/* Review body */
+.review-body {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: #000;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  .review-body {
+    color: #fff;
+  }
+} */
+
+/* Fade gradients */
+.fade-left {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  left: 0;
+  right: auto;
+  width: 25%;
+  background: linear-gradient(to right, var(--background, #fff), transparent);
+}
+
+.fade-right {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  left: auto;
+  right: 0;
+  width: 25%;
+  background: linear-gradient(to left, var(--background, #fff), transparent);
+}
+
+
+
+/* CSS custom properties for background color */
+:root {
+  --background: #000;
+}
+
+@media screen and (max-width: 800px) {
+  .sixth-container{
+    position: relative;
+    top: 0px;
+    height: 160vh;
+    overflow-y: hidden;
+    padding-top: 100px;
+  }
+
+  .bb{
+    z-index: 200;
+  }
+
+.trusted{
+  padding: 20px;
+  margin-top: 0% !important;
+  z-index: 200;
+  transform: none;
+}
+
+.trusted h4{
+  font-size: smaller;
+}
+
+  .fade-top{
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  top: 45vh;
+  height: 270px;
+  width: 100%;
+  background: linear-gradient(to bottom, var(--background, #fff), transparent);
+  z-index: 199;
+  }
+
+  .fade-bottom{
+ pointer-events: none;
+  position: absolute;
+  inset: 0;
+  bottom: 100px;
+  top: auto;
+  height: 270px;
+  width: 100%;
+  background: linear-gradient(to top, var(--background, #fff), transparent);
+  z-index: 100;
+  }
+
+
+  .marquee-content{
+    pointer-events: none;
+    display: flex;
+    flex-direction: column !important;
+    animation: marqueeVert 40s linear infinite alternate;
+    animation-duration: 40s !important;
+    align-items: center;
+    width: 90%;
+  }
+
+  .review-card{
+    margin: 10px;
+    font-family: 'Poppins';
+    font-size: 1.2em;
+    font-weight: 200;
+    padding: 25px;
+    height: max-content;
+    width: 80%;
+  }
+
+  .review-card h3{
+    margin-top: 0%;
+    margin-bottom: 10px;
+  }
+
+  .review-card p{
+    margin: 1%;
+  }
+}

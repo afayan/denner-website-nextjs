@@ -1,0 +1,36 @@
+#thirddiv{
+    height: 300vh;
+    margin-top: 200px;
+    position: relative;
+    display: block;
+    
+}
+
+#splitTextAnimation{
+    position: sticky;
+    top: 190px;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 600;
+    line-height: 130%;
+}
+
+#smallertext{
+    font-size: 0.6em;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 800px) {
+
+    #thirddiv{
+        margin: 0%;
+        margin-top: 90px;
+        height: 200vh;
+    }
+
+    #splitTextAnimation{
+        position: sticky;
+        font-size: 24px;
+        padding-inline: 30px;
+    }
+}

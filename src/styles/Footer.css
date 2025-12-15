@@ -1,0 +1,299 @@
+/* Footer.css */
+.footer {
+  font-family: 'Poppins';
+  background-color: #000000;
+  color: #ffffff;
+  padding: 60px 20px 20px;
+  padding-bottom: 100px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  padding-bottom: 0%;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  margin-bottom: 40px;
+}
+
+/* Left Section */
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.brand-icon {
+  height: 55px;
+}
+
+.brand-name {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: aqua;
+}
+
+.tagline {
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.3;
+  color: #ffffff;
+}
+
+.description {
+  font-family: 'Poppins';
+  font-size: 16px;
+  line-height: 1.6;
+  color: gray;
+  margin: 0;
+  max-width: 400px;
+}
+
+.sub-description {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #999999;
+  margin: 0;
+  max-width: 400px;
+}
+
+/* Right Section */
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-left: 90px;
+  position: relative;
+}
+
+.footer-links {
+  font-family: 'Poppins';
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-links span{
+  cursor: pointer;
+font-weight: 500;
+}
+
+.footer-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #c5c5c5;
+}
+
+/* Social Section */
+.social-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.find-us {
+  font-family: 'Poppins';
+  font-size: 1em;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #333333;
+  border-radius: 8px;
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-icon img{
+  height: 100%;
+}
+
+.social-icon:hover {
+  background-color: #000000;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.social-icon svg {
+  stroke-width: 0 /* thinner lines */
+}
+
+/* Bottom Section */
+.footer-bottom {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+}
+
+.copyright {
+  font-size: 14px;
+  color: #999999;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.heart {
+  color: #ff4757;
+}
+
+.team {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.company {
+  font-size: 14px;
+  color: #999999;
+  margin: 0;
+}
+
+.footer-right::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width:1px;
+    left: 0%;
+    z-index: 90;
+
+    background: linear-gradient(to bottom,  
+  white 0%, 
+  transparent 100%
+);
+
+opacity: 0.5;
+
+}
+
+#bottomimage{
+
+width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer {
+    padding: 40px 15px 20px;
+  }
+  
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  
+  .tagline {
+    font-size: 24px;
+  }
+  
+  .footer-links {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+  
+  .social-icons {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 30px 30px 15px;
+    padding-bottom: 0%;
+  }
+  
+  .footer-content {
+    gap: 30px;
+  }
+  
+  .footer-right::after{
+    display: none;
+  }
+
+  .tagline {
+    font-size: 20px;
+  }
+  
+  .description,
+  .sub-description {
+    font-size: 14px;
+  }
+  
+
+.brand-icon {
+  height: 40px;
+}
+
+  .brand-name {
+    font-size: 20px;
+  }
+  
+  .social-icon {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .social-icons {
+    gap: 12px;
+  }
+
+  .footer-right {
+    border: none;
+    padding-left: 0%;
+}
+
+.footer-link{
+    font-size: smaller;
+}
+
+.social-icons{
+  justify-content: flex-start; /* align items to the left */
+  gap: 20px;
+}
+
+}

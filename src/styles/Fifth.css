@@ -1,0 +1,204 @@
+#fifth{
+    margin-top: 200px;
+    padding-bottom: 200px;
+}
+
+
+.roll{
+    display: flex;
+    flex-direction: column;
+}
+
+.fifthcards{
+position: relative;
+display: grid;
+grid-template-columns: 50% 50%;
+}
+
+.fifthcards h2{
+    font-size: 2em;
+    margin: 0%;
+    font-weight: 600;
+}
+
+.fifthcards::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background-image: repeating-linear-gradient(
+        to bottom,
+        black 0,
+        black 25px,      /* dash length */
+        transparent 10px,
+        transparent 50px /* gap length */
+    );
+    background-repeat: repeat-y;
+    background-position: right;
+    background-size: 1px 130%;
+    z-index: 21;
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+
+
+
+.fifthcards div{
+    flex: 1;
+    font-size: larger;
+    padding: 100px;
+    width: 400px;
+    margin-left: 100px;
+}
+
+.fifthcards h2{
+    letter-spacing: -1px;
+    font-size: 2.2em;
+}
+
+#card2 h2{
+    text-align: right;
+}
+
+.fifthcards p{
+    font-weight: 500;
+    letter-spacing: -1px;
+    font-size: 1.1em;
+}
+
+#card2 .infoparas{
+text-align: right;
+}
+
+.fifthcards img{
+    flex: 1;
+    height: 400px;
+    margin-left: 16vw;
+    object-fit: cover;
+    z-index: 5;
+    position: relative;
+}
+
+.fifthcards span{
+    position: relative;
+    z-index: 21;
+}
+
+.fifthcards span::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30%; /* how much fade you want */
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, white 100%);
+    /* change `white` to your section background color */
+    pointer-events: none;
+    z-index: 5;
+}
+
+.number{
+    background-color: black;
+    position: absolute;
+    color: white;
+    height: 20px;
+    width: 20px;
+    padding: 20px;
+    border-radius: 50%;
+    text-align: center;
+    left: 50%;
+    top: 48%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    font-style: italic;
+}
+
+@media screen and (max-width: 800px) {
+#fifth{
+    padding-bottom: 0%;
+    padding-top: 40px;
+}
+
+.roll{
+    width: 100%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    height: 270vh;
+    justify-content: space-around;
+    padding-bottom: 90px;
+}
+
+.roll::after{
+    content: '';
+    position: absolute;
+    height: inherit;
+    width: 50.6vw;
+    background-image: repeating-linear-gradient(
+        to bottom,
+        black 0,
+        black 20px,      /* dash length */
+        transparent 0px,
+        transparent 40px /* gap length */
+    );
+    background-repeat: repeat-y;
+    background-position: right;
+    background-size: 2px 130%;
+    z-index: -1;
+    pointer-events: none;
+    opacity: 0.3;
+}
+
+.rollcard{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: max-content;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+.rollcard img{
+    width: 90%;
+}
+
+.rollcard span{
+    text-align: center;
+    bottom: 0%;
+    padding-top: 30px;
+    transform: translateY(-60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rollcard h2{
+    padding: 0%;
+    margin: 0%;
+}
+
+.rollcard span p{
+    padding-block: 0px;
+    font-size: small;
+    width: 80%;
+    font-weight: 600;
+    margin: 0%;
+}
+
+.rollcard span::after{
+    content: '';
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    filter: blur(20px);
+    z-index: -1;
+}
+
+}
+
