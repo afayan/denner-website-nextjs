@@ -54,7 +54,7 @@
   cursor: pointer;
   font-weight: 600;
   font-size: 1rem;
-  color: #111;
+  color: #111 !important;
   transition: background-color 0.2s ease-in;
   text-decoration: none;
 }

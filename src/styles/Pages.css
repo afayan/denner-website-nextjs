@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
 
 
 
@@ -24,13 +24,15 @@
 
 .pagesbody{
     padding: 90px;
-    padding-inline: 180px;
+    padding-inline: 320px;
 }
 
 .pagesbody h1{
-    font: 'Poppins';
-    font-weight: 600;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 66px;
+    margin-block: 200px;
 }
 
 .pagesbody p{

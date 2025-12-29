@@ -1,14 +1,13 @@
 import React from 'react'
 import Link from 'next/link'
 import '../../styles/Pages.css'
+import "../../styles/Navbar.css";
 
 function page() {
   return (
     <>
-<div className="pagesbody">
-  <Link href={'/'} className="back-link">
-    <img className="back-button" src="/backButton.png" alt="Back" />
-  </Link>
+      <div className="pagesbody">
+        <Navbar />
 
   <h1>Refund Policy</h1>
 

@@ -1,16 +1,14 @@
 import React from 'react'
 import Link from 'next/link'
 import '../../styles/Pages.css'
+import "../../styles/Navbar.css";
+import Navbar from '@/components/Navbar';
 
 function Help() {
   return (
     <>
-    
-    <div className="pagesbody">
-  <Link href={'/'} className="back-link">
-    <img className="back-button" src="/backButton.png" alt="Back" />
-  </Link>
-
+      <div className="pagesbody">
+        <Navbar />
   <h1>Help</h1>
 
   <p>
