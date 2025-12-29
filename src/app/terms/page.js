@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import '../../styles/Pages.css'
 import "../../styles/Navbar.css";
+import Navbar from '@/components/Navbar';
 
 function page() {
   return (

@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Footer from '@/components/Footer'
 import '../../styles/Pages.css'
 import "../../styles/Navbar.css";
+import Navbar from '@/components/Navbar';
 
 function page() {
   return (
