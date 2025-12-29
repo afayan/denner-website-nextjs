@@ -121,9 +121,9 @@ const Navbar = () => {
 
         {/* Center Nav (desktop only) */}
         <div className="navbar-center hideonmobile">
-          <Link href={'/'} className="nav-btn">Home</Link>
+          <Link href={'/'} className="nav-btn">For owners</Link>
           <Link href={'/about'} className="nav-btn">About us</Link>
-          <Link href={'/'} className="nav-btn">Blogs</Link>
+          <Link href={'/'} className="nav-btn">Refer & earn</Link>
         </div>
 
         {/* Right Section */}
@@ -150,9 +150,9 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {menuOpen && (
         <div ref={menuRef} className="mobile-menu">
-          <Link href={'/'} className="nav-btn" >Home</Link>
+          <Link href={'/'} className="nav-btn" >For owners</Link>
           <Link href={'/about'} className="nav-btn">About us</Link>
-          <Link href={'/'} className="nav-btn">Blogs</Link>
+          <Link href={'/'} className="nav-btn">Refer & earn</Link>
           <button className="download-btn" onClick={() => { 
             close()
             document.getElementById("seventh")?.scrollIntoView({ behavior: "smooth" })}} >Download app

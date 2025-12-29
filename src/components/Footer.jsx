@@ -31,15 +31,35 @@ const Footer = () => {
 
           {/* Right Section */}
           <div className="footer-right">
+
+            <span className="footer-linkholder">
             <div className="footer-links">
-              <Link href="/blog" className="footer-link">Blogs</Link>
-              <Link href="/privacy" className="footer-link">Privacy Policy</Link>
+              <h2>Index</h2>
+              
               <Link href="/about" className="footer-link">About Us</Link>
               <Link href="/contact" className="footer-link">Contact</Link>
+              <Link href="/contact" className="footer-link">Manifesto</Link>
+              <Link href="/contact" className="footer-link">Letter to owners</Link>
+            </div>
+
+            <div className="footer-links">
+              <h2>Services</h2>
+      
+              <Link href="/" className="footer-link">For owners</Link>
+              <Link href="/" className="footer-link">List your flat</Link>
+              <Link href="/" className="footer-link">Find flats on rent</Link>
+              <Link href="/" className="footer-link">Refer and earn</Link>
+            </div>
+
+            <div className="footer-links">
+              <h2>Legal</h2>
+              <Link href="/privacy" className="footer-link">Privacy Policy</Link>
               <Link href="/terms" className="footer-link">Terms & Conditions</Link>
               <Link href="/help" className="footer-link">Help</Link>
               <Link href="/refund" className="footer-link">Refund Policy</Link>
             </div>
+
+            </span>
 
             <div className="social-section">
               <p className="find-us">Find us on</p>

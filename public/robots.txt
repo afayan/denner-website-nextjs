@@ -1,8 +1,11 @@
 User-agent: *
 Allow: /
 
+Disallow: /dashboard/
+Disallow: /admin/
 Disallow: /api/
-Disallow: /_next/
-Disallow: /static/
+Disallow: /auth/
+Disallow: /internal/
 
 Sitemap: https://denner.in/sitemap.xml
+
