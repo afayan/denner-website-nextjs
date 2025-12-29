@@ -52,7 +52,7 @@
   padding: 12px 16px;
   border-radius: 999px;
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1rem;
   color: #111 !important;
   transition: background-color 0.2s ease-in;
@@ -163,7 +163,7 @@
   }
 
   .nav-btn{
-    color: white;
     margin: 0%;
+    color: white !important;
   }
 }
