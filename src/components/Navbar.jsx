@@ -121,7 +121,7 @@ const Navbar = () => {
 
         {/* Center Nav (desktop only) */}
         <div className="navbar-center hideonmobile">
-          <Link href={'/'} className="nav-btn">For owners</Link>
+          <Link href={'/owners'} className="nav-btn">For owners</Link>
           <Link href={'/about'} className="nav-btn">About us</Link>
           <Link href={'/'} className="nav-btn">Refer & earn</Link>
         </div>

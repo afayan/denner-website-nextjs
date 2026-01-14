@@ -29,7 +29,7 @@
 
 .pagesbody h1{
     font-family: "DM Serif Display", serif;
-    font-weight: 400;
+    font-weight: 400 !important;
     font-style: normal;
     font-size: 66px;
     margin-block: 200px;
