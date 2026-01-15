@@ -1,7 +1,6 @@
 import React from 'react'
 import '../../styles/Owners.css'
 import Navbar from '@/components/Navbar'
-import '../../styles/Owners.css'
 import Link from 'next/link'
 
 function page() {

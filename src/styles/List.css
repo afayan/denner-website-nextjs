@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+.denner-form-container {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+  width: 20vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 90px;
+}
+
+.denner-form-logo {
+  width: 60px;
+}
+
+.denner-form-title {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 600;
+  background: linear-gradient(#0052ff, #0052ff99);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.denner-form-highlight {
+  font-size: 1.4em;
+}
+
+.denner-form-subtitle {
+  font-weight: 600;
+}
+
+.denner-form-description {
+  color: gray;
+}
+
+.denner-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.denner-form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.denner-form-label {
+  font-weight: 600;
+}
+
+.denner-form-input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  margin-top: 6px;
+}
+
+.denner-form-phone-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.denner-form-phone {
+  width: 80%;
+}
+
+.denner-form-submit {
+  background: #0052ff;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.denner-form-loading {
+  background: #2a2a2a;
+}
+
+.denner-form-support  {
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+.denner-form-support button {
+  background: #2a2a2a;
+  color: white;
+  padding: 14px 60px;
+  border-radius: 20px;
+}
+
+.denner-form-end{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 100px;
+}
+
+@media screen and (max-width: 800px) {
+.denner-form-container{
+    margin: 0%;
+    width: 70vw;
+    padding: 60px;
+}
+
+}
