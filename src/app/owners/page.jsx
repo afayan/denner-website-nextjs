@@ -86,7 +86,7 @@ function page() {
        From listing to move-in, Denner takes care of the details so renting feels effortless.
       </p>
 
-      <button className='imp-button'>List your flat</button>
+      <Link href={'/list'} className='imp-button'>List your flat</Link>
 
       {/* IMAGE WRAPPER */}
       <div className="oldman-wrapper">
@@ -114,11 +114,11 @@ function page() {
 
       <h1 className='serif'>How denner works for you?</h1>
         <p className="secondblack">A simple, structured process</p>
-        <div className="flex">
+        <div className="flex ownerstepcontainer">
         {carddata.map((card)=>{
           return <div className='card2' key={card.id}>
             <h2 className='serif number2'>{card.id}.</h2>
-            <h2 className='poppins title'>{card.title}</h2>
+            <h2 className='poppins title2' id='title2'>{card.title}</h2>
             <p className='gray'>{card.info}</p>
           </div>
         })}
@@ -131,7 +131,7 @@ function page() {
          <div className="bluebox">
           <h1 className='serif'>Rent your flat within days!</h1>
           <p>It takes only a few minutes to get started.</p>
-          <Link href={'/'}>
+          <Link href={'/list'}>
           <button className='imp-button2'>List your flat</button></Link>
          </div>
     </div>
@@ -152,10 +152,6 @@ function TestimonialsCarousel({ data }) {
             <p className="denner-carousel-review gray">
               {item.review}
             </p>
-
-            
-             
-
               <div className="denner-carousel-user">
                 <p className="denner-carousel-name">{item.name}</p>
                 <p className="denner-carousel-location">{item.location}</p>

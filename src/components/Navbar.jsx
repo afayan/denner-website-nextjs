@@ -152,7 +152,7 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {menuOpen && (
         <div ref={menuRef} className="mobile-menu">
-          <Link href={'/'} className="nav-btn" >For owners</Link>
+          <Link href={'/owners'} className="nav-btn" >For owners</Link>
           <Link href={'/about'} className="nav-btn">About us</Link>
           <Link href={'/'} className="nav-btn">Refer & earn</Link>
           <button className="download-btn" onClick={() => { 

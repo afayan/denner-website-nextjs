@@ -59,6 +59,8 @@ width: 50vw;
     padding-inline: 40px;
     font-size: 25px;
     margin-bottom: 100px;
+    text-decoration: none;
+    color: black;
 }
 
 .ownercardcontainer{
@@ -106,7 +108,7 @@ width: 50vw;
     margin: 0%;
 }
 
-.card2 .title{
+.card2 .title2{
     text-align: left;
     font-size: 50px;
     font-weight: 600;
@@ -139,7 +141,7 @@ width: 50vw;
     transform: translateX(0);
   }
   50% {
-    transform: translateX(-220px);
+    transform: translateX(-90%);
   }
   100% {
     transform: translateX(0);
@@ -208,4 +210,125 @@ font-size: 30px;
     padding: 15px;
     padding-inline: 40px;
     font-size: 25px;
+}
+
+
+@media screen and (max-width: 800px) {
+
+    #ownerspage{
+        width: auto;
+    }
+
+    #toptag{
+        font-size: small;
+        width: max-content;
+    }
+
+    .ownerspage h1{
+    font-size: 45px !important;
+}
+
+
+.ownerspage p{
+    font-size: small;
+    width: 70%;
+}
+
+.imp-button{
+    scale: 0.8;
+}
+
+.oldman-wrapper, .oldman-wrapper img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.oldman-wrapper::before {
+    content: '';
+    position: absolute;
+    top: 15;
+    left: -15;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: black;
+    z-index: -1;
+}
+
+.ownercardcontainer{
+    width: 90vw;
+    padding: 0%;
+}
+
+.ownercard{
+    width: 80vw;
+}
+.ownerstepcontainer{
+    width: 100%;
+    padding: 0%;
+}
+
+.card2{
+    width: 60vw;
+}
+
+#title2{
+    font-size: 32px;
+    line-height: 100%;
+    margin-bottom: 50px;
+}
+
+.card2 p{
+    width: 100%;
+}
+
+.denner-carousel-review{
+    font-size: 14px !important;
+    width: 100% !important;
+}
+
+.denner-carousel-name{
+font-size: 24px !important;
+}
+
+.denner-carousel-name{
+    font-size: 30px;
+}
+
+.denner-carousel-card{
+    width: 220px !important;
+    height: 220px;
+}
+
+.denner-carousel-track {
+  animation-duration: 120s;
+}
+
+.denner-carousel-card{
+    width: 50vw;
+}
+
+.bluebox{
+    width: auto;
+    margin-block: 0px;
+    margin: 24px;
+}
+
+.bluebox h1{
+    font-size: 32px !important;
+}
+
+.bluebox p{
+    text-align: center;
+}
+
+.bluebox button{
+    font-size: 12px;
+    padding: 10px;
+    border-width: 2px;
+    margin-top: 40px;
+    padding-inline: 30px;
+}
 }
