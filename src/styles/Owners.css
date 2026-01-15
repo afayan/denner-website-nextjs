@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
 .ownerspage {
     position: relative;
     display: flex;
@@ -15,13 +17,12 @@
     border-radius: 30px;
 }
 
-.ownerspage h1{
- font-family: 'DM Serif Display';
-font-weight: 600;
+#ownerspage h1{
 font-size: 90px;
 letter-spacing: -2px;
 text-align: center;
 margin-block: 0px;
+font-weight: 400;
 }
 
 .oldman-wrapper {
@@ -60,7 +61,7 @@ width: 50vw;
     margin-bottom: 100px;
 }
 
-.cardcontainer{
+.ownercardcontainer{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -71,6 +72,7 @@ width: 50vw;
 
 .ownercard{
     width: 400px;
+    height: max-content;
 }
 
 .secondblack{
@@ -90,4 +92,120 @@ width: 50vw;
     border-radius: 50px;
     background: black;
     z-index: -1;
+}
+
+.card2{
+    border: 1px solid;
+    border-radius: 48px;
+    margin-bottom: 20px;
+    width: 80vw;
+    padding: 40px;
+}
+
+.card2 h2{
+    margin: 0%;
+}
+
+.card2 .title{
+    text-align: left;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.card2 p{
+    font-size: 30px;
+}
+
+.number{
+    font-size: 90px;
+    font-weight: 400;
+}
+
+.denner-carousel-wrapper {
+  width: 100%;
+  overflow: hidden;
+  padding: 40px 0;
+}
+
+.denner-carousel-track {
+  display: flex;
+  gap: 24px;
+  width: max-content;
+  animation: denner-pendulum 100s ease-in-out infinite alternate;
+}
+
+@keyframes denner-pendulum {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-220px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.denner-carousel-card {
+  width: 29vw;
+  padding: 40px;
+  background: #ffffff;
+  border-radius: 42px;
+  border: solid 1px;
+
+  display: flex;
+  flex-direction: column;
+  height: 380px; /* required */
+}
+
+.denner-carousel-review {
+font-weight: 500;
+font-size: 30px;
+}
+
+
+.denner-carousel-name {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0;
+ 
+}
+
+.denner-carousel-user{
+    margin-top: auto;
+}
+
+.denner-carousel-location {
+  font-size: 22px;
+  margin: 0;
+}
+
+.bluebox{
+    margin-top: 200px;
+    margin-bottom: 400px;
+    background-color: #0052FF;
+    width: 80vw;
+    padding: 50px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    border-radius: 32px;
+}
+
+.bluebox p{
+   
+    font-size: 30px;
+}
+
+.bluebox button{
+    border: 3px solid;
+    color: white;
+    font-weight: 700;
+    border-radius:50px;
+    background-color: transparent;
+    padding: 15px;
+    padding-inline: 40px;
+    font-size: 25px;
 }

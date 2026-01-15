@@ -111,6 +111,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div ref={navbarInnerRef} className="navbar-inner">
         {/* Logo */}
+        <Link href={'/'}>
         <img
           ref={logoRef}
           id="navlogo"
@@ -118,6 +119,7 @@ const Navbar = () => {
           alt="Denner Logo"
           className="logo"
         />
+        </Link>
 
         {/* Center Nav (desktop only) */}
         <div className="navbar-center hideonmobile">

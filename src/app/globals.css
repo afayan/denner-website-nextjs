@@ -3,8 +3,42 @@
   --gray : #626262;
 }
 
+a{
+  cursor: pointer;
+}
+
+button{
+  cursor: pointer;
+}
+
 body{
   padding: 0%;
   margin: 0%;
   font-family: var(--font-poppins);
+}
+
+.poppins{
+  font-family: 'Poppins';
+}
+
+.italic{
+  font-style: italic;
+}
+
+.serif{
+font-family: 'DM Serif Display' !important;
+}
+
+.flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.white{
+  color: white !important;
+}
+
+.gray{
+  color: var(--gray);
 }
