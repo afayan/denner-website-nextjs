@@ -118,7 +118,7 @@ function page() {
         <div className="flex">
         {carddata.map((card)=>{
           return <div className='card2' key={card.id}>
-            <h2 className='serif number'>{card.id}.</h2>
+            <h2 className='serif number2'>{card.id}.</h2>
             <h2 className='poppins title'>{card.title}</h2>
             <p className='gray'>{card.info}</p>
           </div>
