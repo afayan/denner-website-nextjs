@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
 import "@/styles/Pages.css";
+import Link from "next/link";
 
 function page() {
   return (
@@ -40,6 +41,14 @@ function page() {
         </p>
 
         <p>Team Denner</p>
+
+        <div className="whitebox">
+          <h1 className='serif'>Ready to list your flat?</h1>
+          <p>It takes only a few minutes to get started.</p>
+          <Link href={'/list'}>
+          <button>List your flat</button></Link>
+         </div>
+        
       </div>
     </>
   );
