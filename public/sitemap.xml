@@ -1,53 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
     <loc>https://denner.in/</loc>
-    <lastmod>2025-01-01</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
     <loc>https://denner.in/about</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://denner.in/contact</loc>
-    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://denner.in/manifesto</loc>
     <priority>0.7</priority>
   </url>
 
   <url>
+    <loc>https://denner.in/letter-to-owners</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://denner.in/owners</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://denner.in/list-your-flat</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://denner.in/flats-for-rent</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://denner.in/refer-and-earn</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
     <loc>https://denner.in/privacy</loc>
-    <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
 
   <url>
     <loc>https://denner.in/terms</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
-  </url>
-
-  <url>
-    <loc>https://denner.in/refund</loc>
-    <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
 
   <url>
     <loc>https://denner.in/help</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://denner.in/blog</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://denner.in/refund-policy</loc>
+    <priority>0.4</priority>
   </url>
 
 </urlset>

@@ -86,7 +86,7 @@ function page() {
        From listing to move-in, Denner takes care of the details so renting feels effortless.
       </p>
 
-      <Link href={'/list'} className='imp-button'>List your flat</Link>
+      <Link href={'/list-your-flat'} className='imp-button'>List your flat</Link>
 
       {/* IMAGE WRAPPER */}
       <div className="oldman-wrapper">
@@ -131,7 +131,7 @@ function page() {
          <div className="bluebox">
           <h1 className='serif'>Rent your flat within days!</h1>
           <p>It takes only a few minutes to get started.</p>
-          <Link href={'/list'}>
+          <Link href={'/list-your-flat'}>
           <button className='imp-button2'>List your flat</button></Link>
          </div>
     </div>

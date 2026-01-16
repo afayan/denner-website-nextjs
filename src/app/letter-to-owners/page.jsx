@@ -45,7 +45,7 @@ function page() {
         <div className="whitebox">
           <h1 className='serif'>Ready to list your flat?</h1>
           <p>It takes only a few minutes to get started.</p>
-          <Link href={'/list'}>
+          <Link href={'/list-your-flat'}>
           <button>List your flat</button></Link>
          </div>
         

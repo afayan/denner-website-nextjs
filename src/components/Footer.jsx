@@ -46,7 +46,7 @@ const Footer = () => {
               <h2>Services</h2>
       
               <Link href="/owners" className="footer-link">For owners</Link>
-              <Link href="/list" className="footer-link">List your flat</Link>
+              <Link href="/list-your-flat" className="footer-link">List your flat</Link>
               <Link href="/" className="footer-link">Find flats on rent</Link>
               <Link href="/refer-and-earn" className="footer-link">Refer and earn</Link>
             </div>
@@ -56,7 +56,7 @@ const Footer = () => {
               <Link href="/privacy" className="footer-link">Privacy Policy</Link>
               <Link href="/terms" className="footer-link">Terms & Conditions</Link>
               <Link href="/help" className="footer-link">Help</Link>
-              <Link href="/refund" className="footer-link">Refund Policy</Link>
+              <Link href="/refund-policy" className="footer-link">Refund Policy</Link>
             </div>
 
             </span>
