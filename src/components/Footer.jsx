@@ -38,17 +38,17 @@ const Footer = () => {
               
               <Link href="/about" className="footer-link">About Us</Link>
               <Link href="/contact" className="footer-link">Contact</Link>
-              <Link href="/contact" className="footer-link">Manifesto</Link>
-              <Link href="/contact" className="footer-link">Letter to owners</Link>
+              <Link href="/manifesto" className="footer-link">Manifesto</Link>
+              <Link href="/letter-to-owners" className="footer-link">Letter to owners</Link>
             </div>
 
             <div className="footer-links">
               <h2>Services</h2>
       
-              <Link href="/" className="footer-link">For owners</Link>
-              <Link href="/" className="footer-link">List your flat</Link>
+              <Link href="/owners" className="footer-link">For owners</Link>
+              <Link href="/list" className="footer-link">List your flat</Link>
               <Link href="/" className="footer-link">Find flats on rent</Link>
-              <Link href="/" className="footer-link">Refer and earn</Link>
+              <Link href="/refer-and-earn" className="footer-link">Refer and earn</Link>
             </div>
 
             <div className="footer-links">

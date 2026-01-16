@@ -58,6 +58,28 @@
     text-decoration: none;
 }
 
+#manifesto h1{
+    text-align: center;
+}
+
+#manifesto p{
+    text-align: justify;
+    color: rgb(123, 123, 123);
+}
+
+#stamp{
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+}
+
+#letter p{
+    text-align: justify;
+    font-weight: 300;
+    margin-inline: 100px;
+    color: rgb(123, 123, 123);
+}
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
