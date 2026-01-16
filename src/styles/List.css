@@ -83,8 +83,18 @@
 .denner-form-support  {
   text-align: center;
   margin-top: 30px;
+  font-weight: 600;
 }
 
+.denner-form-description{
+  font-size: 20px;
+  width: 100%;
+  font-weight: 600;
+  text-align: center;
+  background: linear-gradient(#0052ff, #0052ff99);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .denner-form-support button {
   background: #2a2a2a;

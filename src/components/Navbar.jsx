@@ -125,7 +125,7 @@ const Navbar = () => {
         <div className="navbar-center hideonmobile">
           <Link href={'/owners'} className="nav-btn">For owners</Link>
           <Link href={'/about'} className="nav-btn">About us</Link>
-          <Link href={'/'} className="nav-btn">Refer & earn</Link>
+          <Link href={'/refer-and-earn'} className="nav-btn">Refer & earn</Link>
         </div>
 
         {/* Right Section */}
@@ -154,7 +154,7 @@ const Navbar = () => {
         <div ref={menuRef} className="mobile-menu">
           <Link href={'/owners'} className="nav-btn" >For owners</Link>
           <Link href={'/about'} className="nav-btn">About us</Link>
-          <Link href={'/'} className="nav-btn">Refer & earn</Link>
+          <Link href={'/refer-and-earn'} className="nav-btn">Refer & earn</Link>
           <button className="download-btn" onClick={() => { 
             close()
             document.getElementById("seventh")?.scrollIntoView({ behavior: "smooth" })}} >Download app
