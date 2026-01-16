@@ -11,7 +11,7 @@ function Page() {
         Thank you!
       </h1>
 
-      <p className="denner-form-description">
+      <p className="denner-form-description2">
         Our team will contact you shortly to list your property.
       </p>
 
