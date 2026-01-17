@@ -81,7 +81,10 @@ width: 50vw;
     font-weight: 500;
     width: 100%;
     text-align: center;
-    font-size: 25px;
+    font-size: 36px;
+    letter-spacing: -1px;
+    line-height: 200%;
+    margin-top: 0%;
 }
 
 .oldman-wrapper::before {
@@ -97,15 +100,17 @@ width: 50vw;
 }
 
 .card2{
-    border: 1px solid;
+    border: 2px solid;
     border-radius: 48px;
     margin-bottom: 20px;
-    width: 80vw;
-    padding: 40px;
+    width: 60vw;
+    padding-inline: 100px;
+    padding-block: 20px;
 }
 
 .card2 h2{
     margin: 0%;
+    letter-spacing: -1px;
 }
 
 .card2 .title2{
@@ -141,7 +146,7 @@ width: 50vw;
     transform: translateX(0);
   }
   50% {
-    transform: translateX(-90%);
+    transform: translateX(-60%);
   }
   100% {
     transform: translateX(0);

@@ -6,7 +6,7 @@ import React, { useState, useEffect, useRef } from "react";
 import "../styles/Navbar.css";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-
+import { useRouter } from "next/navigation";
 
 
 gsap.registerPlugin(ScrollTrigger);
@@ -19,6 +19,8 @@ const Navbar = () => {
   const downloadRef = useRef(null);
   const menuRef = useRef(null);
   const hamburgerRef = useRef(null);
+
+  const router = useRouter();
 
 
   function close() {
@@ -131,6 +133,13 @@ const Navbar = () => {
         {/* Right Section */}
         <div className="navbar-right">
           <button ref={downloadRef} className="download-btn hideonmobile" onClick={() => { 
+
+            if (!document.getElementById("seventh")) {
+             
+              router.push('/')
+              
+            }
+
             close()
             document.getElementById("seventh")?.scrollIntoView({ behavior: "smooth" })
             }}>
@@ -156,6 +165,12 @@ const Navbar = () => {
           <Link href={'/about'} className="nav-btn">About us</Link>
           <Link href={'/refer-and-earn'} className="nav-btn">Refer & earn</Link>
           <button className="download-btn" onClick={() => { 
+
+            if (!document.getElementById("seventh")) {
+              router.push('/')
+              
+            }
+
             close()
             document.getElementById("seventh")?.scrollIntoView({ behavior: "smooth" })}} >Download app
             </button>

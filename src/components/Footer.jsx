@@ -47,7 +47,7 @@ const Footer = () => {
       
               <Link href="/owners" className="footer-link">For owners</Link>
               <Link href="/list-your-flat" className="footer-link">List your flat</Link>
-              <Link href="/" className="footer-link">Find flats on rent</Link>
+              <Link style={{pointerEvents:"none", color:'gray'}} href="/" className="footer-link">Find flats on rent</Link>
               <Link href="/refer-and-earn" className="footer-link">Refer and earn</Link>
             </div>
 

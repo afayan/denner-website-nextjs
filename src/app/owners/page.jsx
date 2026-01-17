@@ -97,7 +97,7 @@ function page() {
 <br />
       <h1 className='serif'>Made for flat owners</h1>
       <p className='secondblack'>
-        Simple steps, verified tenants, and clear support <br />
+        Simple steps, verified tenants, and clear <br /> support
         throughout the rental journey.
       </p>
 

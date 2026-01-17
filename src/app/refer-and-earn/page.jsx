@@ -50,7 +50,7 @@ function page() {
         <p className='secondblack'>Earn in thousands with simple steps!</p>
         {steps.map((card)=>{
           return <div className='card3' key={card.id}>
-            <h2 className='serif number2'>step {card.id}.</h2>
+            <h2 className='serif number2'>step {card.id}</h2>
             <p className='gray'>{card.info}</p>
           </div>
         })}
