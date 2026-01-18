@@ -90,12 +90,12 @@ function page() {
 
       {/* IMAGE WRAPPER */}
       <div className="oldman-wrapper">
-        <img src="/oldman.png" alt="old man" />
+        <img src="/oldman.webp" alt="old man" />
       </div>
 <br />
 <br />
 <br />
-      <h1 className='serif'>Made for flat owners</h1>
+      <h1 className='serif'>Made for <br className='mobile'/> flat owners</h1>
       <p className='secondblack'>
         Simple steps, verified tenants, and clear <br /> support
         throughout the rental journey.
@@ -112,7 +112,7 @@ function page() {
       <br />
       <br />
 
-      <h1 className='serif'>How denner works for you?</h1>
+      <h1 className='serif'>How denner <br className='mobile'/> works for you?</h1>
         <p className="secondblack">A simple, structured process</p>
         <div className="flex ownerstepcontainer">
         {carddata.map((card)=>{

@@ -124,6 +124,10 @@ width: 50vw;
     z-index: -1;
 }
 
+.denner-referral-loading{
+  background-color: var(--gray) !important;
+  pointer-events: none;
+}
 
 .number2{
     font-size: 90px;
@@ -364,6 +368,7 @@ hr {
 
 .card3{
     width: 60vw;
+    padding-block: 30px;
 }
 
 .card3 h2{
@@ -372,7 +377,7 @@ font-size: 42px;
 
 .card3 p{
     width: 100%;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .denner-referral-wrapper{

@@ -265,6 +265,7 @@ font-size: 30px;
 .ownercardcontainer{
     width: 90vw;
     padding: 0%;
+    gap: 30px;
 }
 
 .ownercard{
@@ -276,7 +277,11 @@ font-size: 30px;
 }
 
 .card2{
-    width: 60vw;
+    width: auto;
+    padding: 20px;
+    padding-inline: 40px;
+    margin: 10px;
+    border-radius: 20px;
 }
 
 #title2{

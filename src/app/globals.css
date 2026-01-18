@@ -46,3 +46,18 @@ font-family: 'DM Serif Display' !important;
 .gray{
   color: var(--gray);
 }
+
+.mobile{
+  display: none !important;
+}
+
+@media screen and (max-width: 800px) {
+
+    .hideonmobile{
+        display: none !important;
+    }
+
+    .mobile{
+        display: flex !important;
+    }
+  }

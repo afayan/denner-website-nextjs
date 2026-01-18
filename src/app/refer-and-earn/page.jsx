@@ -42,7 +42,7 @@ function page() {
         <button className='imp-button'>Refer a flat</button></Link>
 
         <div className="oldman-wrapper">
-        <img src="/youngman.png" alt="old man" />
+        <img src="/youngman.webp" alt="old man" />
       </div>
       <br />
       <br />
@@ -57,7 +57,7 @@ function page() {
         
         <br />
         <br />
-        <h1 className='serif'>Refer now. Start earning!</h1>
+        <h1 className='serif'>Refer now. <br className='mobile'/> Start earning!</h1>
         <p className='secondblack'>Introduce a flat owner to Denner and earn <br /> rewards on successful onboarding.</p>
 
         <ReferralForm/>

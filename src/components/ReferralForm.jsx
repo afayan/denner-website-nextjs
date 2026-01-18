@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 
 export default function ReferralForm() {
+  const [loading, setloading] = useState(false)
 
   const [formData, setFormData] = useState({
     yourName: "",
@@ -24,7 +25,7 @@ export default function ReferralForm() {
 const handleSubmit = async (e) => {
   e.preventDefault();
 
-  
+  setloading(true)
 
   const {
     yourName,
@@ -45,7 +46,7 @@ const handleSubmit = async (e) => {
     !flatType
   ) {
     alert("Please fill all required fields.");
-    return;
+    return setloading(true);
   }
 
   // Phone number validation (India - 10 digits)
@@ -64,9 +65,10 @@ const handleSubmit = async (e) => {
   // Passed all validations
   console.log("Validated form data:", formData);
 
-  const body = new URLSearchParams(formData).toString();
+  try {
+      const body = new URLSearchParams(formData).toString();
 
-  const response = await fetch(
+  await fetch(
     "https://script.google.com/macros/s/AKfycbyB372ycvN276HoJ2GfHUFCL7nk8NqoR9rPzn_gxZQI5UFoMddZbXqEKlcVKATVb7qh/exec",
     {
     method: "POST",
@@ -86,7 +88,12 @@ const handleSubmit = async (e) => {
 
 
   alert("Form submitted successfully!");
+  } catch (error) {
+    alert("An error ocurred, Please try again");
+  }
 
+
+setloading(false)
   // Optional: reset form
 
 //   setFormData({
@@ -234,8 +241,15 @@ const handleSubmit = async (e) => {
           />
         </div>
 
-        <button type="submit" className="denner-referral-submit">
-          Submit details
+        <button disabled={loading} type="submit"
+        
+        className={`denner-referral-submit ${
+            loading ? "denner-referral-loading" : ""
+          }`}
+
+        >
+          {loading ? "Submitting...":"Submit details"}
+          
         </button>
       </form>
     </div>
