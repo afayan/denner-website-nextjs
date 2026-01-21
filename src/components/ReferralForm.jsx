@@ -203,7 +203,7 @@ setloading(false)
     onChange={handleChange}
     required
   >
-    <option value="">Select locality</option>
+    <option value="">Tap to select locality</option>
     <option value="Kothrud">Kothrud</option>
     <option value="Bavdhan">Bavdhan</option>
     <option value="Loni Kalbhor">Loni Kalbhor</option>
@@ -223,7 +223,7 @@ setloading(false)
             onChange={handleChange}
             required
           >
-            <option value="">Select flat type</option>
+            <option value="">Tap to select flat type</option>
             <option value="1rk">1 RK</option>
             <option value="1bhk">1 BHK</option>
             <option value="2bhk">2 BHK</option>
@@ -238,6 +238,7 @@ setloading(false)
             name="availableFrom"
             value={formData.availableFrom}
             onChange={handleChange}
+            placeholder="Tap to select date"
           />
         </div>
 

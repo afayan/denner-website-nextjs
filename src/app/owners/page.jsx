@@ -80,7 +80,7 @@ function page() {
    <Navbar></Navbar>
     <div id='ownerspage' className='ownerspage'>
       <p id='toptag'>Save up to 30000, coz it's free!</p>
-      <h1 className='serif'>Rent your flat <br />with confidence!</h1>
+      <h1 className='serif' id='first-title'>Rent your flat <br />with confidence!</h1>
 
       <p className='lightgraytext'>
        From listing to move-in, Denner takes care of the details so renting feels effortless.
@@ -130,7 +130,7 @@ function page() {
 
          <div className="bluebox">
           <h1 className='serif'>Rent your flat within days!</h1>
-          <p>It takes only a few minutes to get started.</p>
+          <p>It takes only a few <br className='mobile' /> minutes to get started.</p>
           <Link href={'/list-your-flat'}>
           <button className='imp-button2'>List your flat</button></Link>
          </div>
@@ -148,6 +148,30 @@ function TestimonialsCarousel({ data }) {
     <div className="denner-carousel-wrapper">
       <div className="denner-carousel-track">
         {data.map((item) => (
+          <div className="denner-carousel-card" key={item.id}>
+            <p className="denner-carousel-review gray">
+              {item.review}
+            </p>
+              <div className="denner-carousel-user">
+                <p className="denner-carousel-name">{item.name}</p>
+                <p className="denner-carousel-location">{item.location}</p>
+            </div>
+          </div>
+        ))}
+
+         {data.map((item) => (
+          <div className="denner-carousel-card" key={item.id}>
+            <p className="denner-carousel-review gray">
+              {item.review}
+            </p>
+              <div className="denner-carousel-user">
+                <p className="denner-carousel-name">{item.name}</p>
+                <p className="denner-carousel-location">{item.location}</p>
+            </div>
+          </div>
+        ))}
+
+         {data.map((item) => (
           <div className="denner-carousel-card" key={item.id}>
             <p className="denner-carousel-review gray">
               {item.review}

@@ -17,11 +17,7 @@ function page() {
   },
   {
     "id": 3,
-    "info": "Once the flat is verified, it is onboarded on Denner."
-  },
-  {
-    "id": 4,
-    "info": "Your referral reward is processed after successful onboarding."
+    "info": "Once the flat is verified, it is onboarded on Denner and you get paid instantly!"
   }
 ]
 
@@ -30,7 +26,7 @@ function page() {
     <>
     <Navbar/>
     <div className="referpage" id="referpage">
-        <h1 className='serif'>
+        <h1 className='serif' id='first-title'>
             Refer a flat. <br /> Earn money.
         </h1>
 

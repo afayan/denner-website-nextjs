@@ -67,6 +67,7 @@
   color: gray;
   margin: 0;
   max-width: 400px;
+  letter-spacing: 0px;
 }
 
 .sub-description {
@@ -75,6 +76,7 @@
   color: #999999;
   margin: 0;
   max-width: 400px;
+  letter-spacing: 0px;
 }
 
 /* Right Section */
@@ -110,6 +112,7 @@ font-weight: 500;
   text-decoration: none;
   font-size: 14px;
   font-weight: 300;
+  letter-spacing: 0px !important;
   transition: color 0.3s ease;
 }
 

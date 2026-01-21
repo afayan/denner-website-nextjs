@@ -23,6 +23,7 @@ letter-spacing: -2px;
 text-align: center;
 margin-block: 0px;
 font-weight: 400;
+line-height: 100%;
 }
 
 .oldman-wrapper {
@@ -58,7 +59,7 @@ width: 50vw;
     padding: 15px;
     padding-inline: 40px;
     font-size: 25px;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     text-decoration: none;
     color: black;
 }
@@ -138,7 +139,8 @@ width: 50vw;
   display: flex;
   gap: 24px;
   width: max-content;
-  animation: denner-pendulum 100s ease-in-out infinite alternate;
+  animation: denner-pendulum 150s linear infinite alternate;
+  
 }
 
 @keyframes denner-pendulum {
@@ -191,19 +193,20 @@ font-size: 30px;
     margin-top: 200px;
     margin-bottom: 400px;
     background-color: #0052FF;
-    width: 80vw;
-    padding: 50px;
+    width: 70vw;
+    padding: 100px;
     height: max-content;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: white;
-    border-radius: 32px;
+    border-radius: 50px;
 }
 
 .bluebox p{
    
     font-size: 30px;
+    letter-spacing: 0cap;
 }
 
 .bluebox button{
@@ -233,6 +236,10 @@ font-size: 30px;
     font-size: 45px !important;
 }
 
+#first-title{
+    line-height: 120% !important;
+}
+
 
 .ownerspage p{
     font-size: small;
@@ -241,13 +248,16 @@ font-size: 30px;
 
 .imp-button{
     scale: 0.8;
+    font-weight: 600;
+    border-width: 4px;
 }
 
 .oldman-wrapper, .oldman-wrapper img{
     width: 300px;
     height: 300px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 30px;
+    border: solid 1px;
 }
 
 .oldman-wrapper::before {
@@ -257,7 +267,7 @@ font-size: 30px;
     left: -15;
     width: 100%;
     height: 100%;
-    border-radius: 10px;
+    border-radius: 30px;
     background: black;
     z-index: -1;
 }
@@ -280,18 +290,19 @@ font-size: 30px;
     width: auto;
     padding: 20px;
     padding-inline: 40px;
-    margin: 10px;
-    border-radius: 20px;
+    margin: 30px;
+    border-radius: 40px;
 }
 
 #title2{
-    font-size: 32px;
+    font-size: 42px;
     line-height: 100%;
     margin-bottom: 50px;
 }
 
 .card2 p{
     width: 100%;
+    font-size: 18px;
 }
 
 .denner-carousel-review{
@@ -324,21 +335,29 @@ font-size: 24px !important;
     width: auto;
     margin-block: 0px;
     margin: 24px;
+    padding: 20px;
+    padding-block: 60px;
+    border-radius: 32px;
 }
 
 .bluebox h1{
-    font-size: 32px !important;
+    font-size: 46px !important;
+    line-height: 130% !important;
 }
 
 .bluebox p{
     text-align: center;
+    width: 80%;
+    font-size: 14px;
+    line-height: 200%;
 }
 
 .bluebox button{
-    font-size: 12px;
+    font-size: 22px;
     padding: 10px;
     border-width: 2px;
-    margin-top: 40px;
-    padding-inline: 30px;
+    margin-top: 30px;
+    padding-inline: 20px;
+    font-weight: 300;
 }
 }

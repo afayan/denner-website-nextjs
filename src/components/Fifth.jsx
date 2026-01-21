@@ -86,10 +86,9 @@ useEffect(() => {
           ref={el => cardsRef.current[0] = el}
         >
           <div>
-            <h2>Tell us your vibe</h2>{" "}
+            <h2>Find your flat</h2>{" "}
             <p className="infoparas">
-              Let us know your ideal rent, preferred area, and the kind of living experience you want — solo, shared, or social.
-            </p>{" "}
+Browse verified listings on Denner based on your location, budget, and preferences.            </p>{" "}
           </div>
 
           <p className="number serif">1</p>
@@ -111,10 +110,9 @@ useEffect(() => {
           <p className="number serif">2</p>
 
           <div>
-            <h2>Meet your match</h2>{" "}
+            <h2>Visit in person</h2>{" "}
             <p className="infoparas">
-            Denner shows you verified listings and real flatmate profiles that actually match your lifestyle. No spam. No random names.
-            </p>{" "}
+Request an in-person visit with a Denner partner. Get guided walkthroughs and clear answers before you decide.            </p>{" "}
           </div>
         </div>
 
@@ -123,10 +121,9 @@ useEffect(() => {
           ref={el => cardsRef.current[2] = el}
         >
           <div>
-            <h2>Say hi and move in</h2>{" "}
+            <h2>Book and move in</h2>{" "}
             <p className="infoparas"> 
-             Message directly, set up your visit, and take the next step toward moving in. Just real people and real spaces.
-            </p>{" "}
+Finalize paperwork and book your flat easily. Denner partner guides you through every step until move-in.            </p>{" "}
           </div>
 
           <p className="number serif">3</p>
@@ -145,9 +142,9 @@ useEffect(() => {
           <img src="2phone1.webp" alt="" />
 
           <span>
-            <h2>Tell us your vibe</h2>{" "}
+            <h2>Find your flat</h2>{" "}
             <p>
-              Let us know your ideal rent, preferred area, and the kind of living experience you want — solo, shared, or social.
+              Browse verified listings on Denner based on your location, budget, and preferences.
             </p>
           </span>
         </div>
@@ -159,9 +156,9 @@ useEffect(() => {
           <img src="2phone2.webp" alt="" />
 
           <span>
-           <h2>Meet your match</h2>{" "}
+           <h2>Visit in person</h2>{" "}
             <p>
-             Denner shows you verified listings and real flatmate profiles that actually match your lifestyle. No spam. No random names.
+            Request an in-person visit with a Denner partner. Get guided walkthroughs and clear answers before you decide.
             </p>{" "}
           </span>
         </div>
@@ -173,9 +170,9 @@ useEffect(() => {
           <img src="2phone3.webp" alt="" />
 
           <span>
-            <h2>Say hi and move in</h2>{" "}
+            <h2>Book and move in</h2>{" "}
             <p>
-             Message directly, set up your visit, and take the next step toward moving in. Just real people and real spaces.
+             Finalize paperwork and book your flat easily. Denner partner guides you through every step until move-in.
             </p>{" "}
           </span>
         </div>

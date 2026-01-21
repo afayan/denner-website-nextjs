@@ -65,7 +65,7 @@ function DennerListFormPage() {
       <img src="/denner-logo2.png" alt="Denner logo" className="denner-form-logo" />
 
       <h1 className="denner-form-title">
-        List your knowing<br />
+        List your<br />
         property at ₹<span className="denner-form-highlight">0</span>
       </h1>
 
