@@ -5,7 +5,7 @@ const Seventh = () => {
   return (
     <section id="seventh">
       <h1 className="serif italic">
-        Join India’s new way to rent.
+        Join India’s new <br className="mobile"/> way to rent.
       </h1>
 
       <p>More trust. More clarity. More connection.</p>

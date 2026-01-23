@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react'
 import Navbar from '@/components/Navbar'
 import '@/styles/Refer.css'
@@ -34,10 +36,10 @@ function page() {
             Know someone who wants to rent out their flat? Share their details with Denner and earn real money.
         </p>
 
-        <Link href={'/'}>
-        <button className='imp-button'>Refer a flat</button></Link>
+        <button onClick={()=>document.querySelector(".denner-referral-wrapper")?.scrollIntoView({ behavior: "smooth" })
+} className='imp-button'>Refer a flat</button>
 
-        <div className="oldman-wrapper">
+        <div className="youngman-wrapper">
         <img src="/youngman.webp" alt="old man" />
       </div>
       <br />

@@ -57,6 +57,7 @@
   color: #111 !important;
   transition: background-color 0.2s ease-in;
   text-decoration: none;
+  letter-spacing: 0px;
 }
 
 .nav-btn:hover {
@@ -79,6 +80,7 @@
   font-size: 0.95rem;
   transition: background 0.2s ease;
   margin-right: 8px;
+  letter-spacing: 0px;
 }
 
 .download-btn:hover {

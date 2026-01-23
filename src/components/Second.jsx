@@ -34,7 +34,7 @@ function Second() {
         <div className="text">
                     <img src="friends.webp" alt="" />
 
-          <h2>Match with the right roommate</h2>
+          <h2>Match with the <br className="hideonmobile"/> right roommate</h2>
           <p>Find verified roommates who <br /> match your vibe.</p>
         </div>
              <img src="1phone3.webp" alt="" />
