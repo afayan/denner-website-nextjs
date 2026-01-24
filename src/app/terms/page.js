@@ -4,6 +4,13 @@ import '../../styles/Pages.css'
 import "../../styles/Navbar.css";
 import Navbar from '@/components/Navbar';
 
+export const metadata = {
+  title: "Terms and Conditions",
+  description:
+    "Review Denner’s terms for using our platform, listings, onboarding process, and partner support services.",
+};
+
+
 function page() {
   return (
     <>

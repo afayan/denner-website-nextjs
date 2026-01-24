@@ -4,6 +4,13 @@ import '../../styles/Pages.css'
 import "../../styles/Navbar.css";
 import Navbar from '@/components/Navbar';
 
+export const metadata = {
+  title: "Refund Policy",
+  description:
+    "Learn about Denner’s refund guidelines, eligibility criteria, timelines, and how to request support.",
+};
+
+
 function page() {
   return (
     <>

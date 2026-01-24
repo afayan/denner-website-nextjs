@@ -5,6 +5,13 @@ import "../../styles/Pages.css";
 import Navbar from "@/components/Navbar";
 import "../../styles/Navbar.css";
 
+export const metadata = {
+  title: "About Denner",
+  description:
+    "Learn how Denner is building a reliable, scam-free way to rent flats in India with verified listings, trusted partners, and end-to-end support.",
+};
+
+
 function page() {
   return (
     <>

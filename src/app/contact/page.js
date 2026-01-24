@@ -5,6 +5,13 @@ import '../../styles/Pages.css'
 import "../../styles/Navbar.css";
 import Navbar from '@/components/Navbar';
 
+export const metadata = {
+  title: "Contact Denner",
+  description:
+    "Get in touch with the Denner team for support, partnerships, or questions about renting, listing your flat, or referrals.",
+};
+
+
 function page() {
   return (
     <>

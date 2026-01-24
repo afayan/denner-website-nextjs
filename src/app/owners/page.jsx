@@ -3,6 +3,13 @@ import '../../styles/Owners.css'
 import Navbar from '@/components/Navbar'
 import Link from 'next/link'
 
+export const metadata = {
+  title: "For Property Owners",
+  description:
+    "List your flat with verified tenant matching, visit coordination, and move-in support. Free for flat owners on Denner.",
+};
+
+
 function page() {
 
   const testimonials = [

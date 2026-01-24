@@ -4,6 +4,13 @@ import '../../styles/Pages.css'
 import "../../styles/Navbar.css";
 import Navbar from '@/components/Navbar';
 
+export const metadata = {
+  title: "Help and Support",
+  description:
+    "Find answers and get support for listing flats, booking visits, referrals, and account-related questions on Denner.",
+};
+
+
 function Help() {
   return (
     <>

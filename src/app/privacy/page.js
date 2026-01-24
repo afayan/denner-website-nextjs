@@ -4,6 +4,13 @@ import '../../styles/Pages.css'
 import "../../styles/Navbar.css";
 import Navbar from '@/components/Navbar';
 
+export const metadata = {
+  title: "Privacy Policy",
+  description:
+    "Understand how Denner collects, uses, and protects your data across our website, forms, and services.",
+};
+
+
 function page() {
   return (
     <>

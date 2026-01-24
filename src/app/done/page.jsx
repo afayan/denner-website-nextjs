@@ -3,6 +3,12 @@
 import React from 'react'
 import "../../styles/List.css";
 
+export const metadata = {
+  title: "The Denner Manifesto",
+  description:
+    "Our commitment to a transparent, scam-free rental experience for tenants and property owners across India.",
+};
+
 
 function Page() {
   return (

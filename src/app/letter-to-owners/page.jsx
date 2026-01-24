@@ -3,6 +3,13 @@ import Navbar from "@/components/Navbar";
 import "@/styles/Pages.css";
 import Link from "next/link";
 
+export const metadata = {
+  title: "A Letter to Property Owners",
+  description:
+    "A note from Denner to property owners on building trust, renting with clarity, and creating a smoother rental journey.",
+};
+
+
 function page() {
   return (
     <>

@@ -2,6 +2,13 @@ import React from 'react'
 import Navbar from '@/components/Navbar'
 import '@/styles/Pages.css'
 
+export const metadata = {
+  title: "The Denner Manifesto",
+  description:
+    "Our commitment to a transparent, scam-free rental experience for tenants and property owners across India.",
+};
+
+
 function page() {
   return (
    <>
