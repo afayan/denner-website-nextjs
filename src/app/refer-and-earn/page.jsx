@@ -33,7 +33,7 @@ function page() {
         </h1>
 
         <p className='lightgraytext'>
-            Know someone who wants to rent out their flat? Share their details with Denner and earn real money.
+            Know someone who wants to rent out their flat? Share <br className='hideonmobile' /> their details with Denner and earn real money.
         </p>
 
         <button onClick={()=>document.querySelector(".denner-referral-wrapper")?.scrollIntoView({ behavior: "smooth" })

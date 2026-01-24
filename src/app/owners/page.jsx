@@ -83,7 +83,7 @@ function page() {
       <h1 className='serif' id='first-title'>Rent your flat <br />with confidence!</h1>
 
       <p className='lightgraytext'>
-       From listing to move-in, Denner takes care of the details so renting feels effortless.
+       From listing to move-in, Denner takes care <br className='hideonmobile'/> of the details so renting feels effortless.
       </p>
 
       <Link href={'/list-your-flat'} className='imp-button'>List your flat</Link>
