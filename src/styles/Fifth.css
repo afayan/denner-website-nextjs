@@ -125,7 +125,7 @@ text-align: right;
     padding: 0%;
     display: flex;
     flex-direction: column;
-    height: auto;
+    height: 230vh;
     justify-content: space-around;
     padding-bottom: 90px;
 }
@@ -158,11 +158,12 @@ text-align: right;
     position: relative;
     height: max-content;
     margin-bottom: 10px;
-    margin-top: 40px;
+    margin-top: 0px;
 }
 
 .rollcard img{
-    width: 90%;
+    width: 70%;
+    margin-top: 0%;
 }
 
 .rollcard span{
@@ -178,6 +179,7 @@ text-align: right;
 .rollcard h2{
     padding: 0%;
     margin: 0%;
+    font-size: 30px;
 }
 
 .rollcard span p{
@@ -186,15 +188,16 @@ text-align: right;
     width: 80%;
     font-weight: 600;
     margin: 0%;
+    font-size: 15px;
 }
 
 .rollcard span::after{
     content: '';
     background-color: rgb(255, 255, 255);
-    height: 150%;
+    height: 100%;
     width: 100%;
     position: absolute;
-    top: -50%;
+    top: 0%;
     left: 0%;
     filter: blur(20px);
     z-index: -1;
