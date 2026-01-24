@@ -11,7 +11,7 @@ function page() {
         <Navbar />
 
   <h1>Terms & Conditions</h1>
-    <p className='bold'>Last Updated on 11 Dec 2024</p>
+    <p className='bold'>Last Updated on 15 Jan 2026</p>
 
 <br />
   <p className="bold">1. Definitions</p>

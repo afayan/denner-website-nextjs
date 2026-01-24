@@ -12,7 +12,7 @@ function page() {
 
   <h1>Privacy Policy</h1>
 
-  <p className='bold'>Last Updated on 11 Dec 2024</p>
+  <p className='bold'>Last Updated on 15 Jan 2026</p>
 
   <p>
     <span className='bold'>Denner{' '}</span>
