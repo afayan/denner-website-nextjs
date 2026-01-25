@@ -4,13 +4,6 @@ import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import "../../styles/List.css";
 
-export const metadata = {
-  title: "List Your Flat",
-  description:
-    "Share your flat details and get a dedicated Denner partner for verification, listing, and rental support.",
-};
-
-
 function DennerListFormPage() {
   const router = useRouter();
 
