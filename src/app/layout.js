@@ -22,21 +22,28 @@ export const metadata = {
   description:
     "Find verified rental flats in Pune on Denner. From shared flats and roommates to homes for bachelors and families, get clear pricing, trusted listings, and end-to-end move-in support.",
 
-  alternates: {
-    canonical: "/",
-  },
-
   openGraph: {
     type: "website",
     siteName: "Denner",
     url: "https://denner.in",
+    images: [
+      {
+        url: "https://res.cloudinary.com/dtpco4jug/image/upload/v1766985904/Preview_IMG_zddk9q.png",
+        width: 1200,
+        height: 630,
+        alt: "Denner – Verified Rental Flats in Pune",
+      },
+    ],
   },
 
-  robots: {
-    index: true,
-    follow: true,
+  twitter: {
+    card: "summary_large_image",
+    images: [
+      "https://res.cloudinary.com/dtpco4jug/image/upload/v1766985904/Preview_IMG_zddk9q.png",
+    ],
   },
 };
+
 
 
 export default function RootLayout({ children }) {
