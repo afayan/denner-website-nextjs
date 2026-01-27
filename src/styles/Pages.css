@@ -105,7 +105,7 @@
     border-radius: 48px;
     border: 1px solid rgb(0, 0, 0);
     padding: 20px;
-    height: 40vh;
+    height: auto;
     margin-top: 100px;
     padding-block: 100px;
     padding-inline: 100px;

@@ -77,7 +77,7 @@ text-transform: lowercase;
 }
 
 .ownercard{
-    width: 400px;
+    width: 25vw;
     height: max-content;
 }
 
@@ -218,6 +218,10 @@ font-size: 30px;
    
     font-size: 30px;
     letter-spacing: 0cap;
+}
+
+.bluebox h1{
+    width: 90vw!important;
 }
 
 .bluebox button{
